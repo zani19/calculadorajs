@@ -1,20 +1,22 @@
-const somar = (valor1, valor2) => {
-    console.log(`Resultado: ${valor1 + valor2}`)
+let soma = (valor1, valor2) => {
+    return `Resultado: ${valor1 + valor2}`
 }
 
-
-const subtrair = (valor1, valor2) => {
-    console.log(`Resultado: ${valor1 - valor2}`)
+let subtrai = (valor1, valor2) => {
+    return `Resultado: ${valor1 - valor2}`
 }
 
-const multiplicar = (valor1, valor2) => {
-    console.log(`Resultado: ${valor1 * valor2}`)
+let multiplica = (valor1, valor2) => {
+    return `Resultado: ${valor1 * valor2}`
 }
 
-const dividir = (valor1, valor2) => {
-    console.log(`Resultado: ${valor1 / valor2}`)
+let divide = (valor1, valor2) => {
+    return `Resultado: ${valor1 / valor2}`
 }
-exports.calculoSoma = somar
+
+export { soma, subtrai, multiplica, divide};
+
+/* .calculoSoma = somar
 exports.calculoSubtrair = subtrair
 exports.calculoMultiplicar = multiplicar
-exports.calculoDividir = dividir
+exports.calculoDividir = dividir */
